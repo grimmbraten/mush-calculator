@@ -1,0 +1,16 @@
+*.md
+*.txt
+*.json
+*.lock
+*.config.js
+
+.eslintrc
+.gitignore
+.prettierrc
+
+build
+.husky
+.github
+coverage
+node_modules
+src/app/assets

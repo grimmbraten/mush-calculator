@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "noEmit": true,
+    "target": "es5",
+    "baseUrl": "./",
+    "allowJs": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "paths": {
+      "~utils": ["src/utils/"],
+      "~public": ["src/public/"],
+      "~config": ["src/config/"],
+      "~routes": ["src/routes/"],
+      "~hooks": ["src/app/hooks/"],
+      "~views": ["src/app/views/"],
+      "~apollo": ["src/app/apollo/"],
+      "~assets": ["src/app/assets/"],
+      "~contexts": ["src/app/contexts/"],
+      "~components": ["src/app/components/"],
+      "~queries": ["src/app/apollo/queries/"],
+      "~mutations": ["src/app/apollo/mutations/"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*", "./tests/**/*"]
+}

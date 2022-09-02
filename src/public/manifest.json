@@ -1,0 +1,7 @@
+{
+  "short_name": "React App Boilerplate",
+  "name": "Create React App",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone"
+}
