@@ -58,8 +58,7 @@ module.exports = env => ({
             options: {
               emitFile: true,
               outputPath: 'assets',
-              publicPath: '/static/assets/',
-              name: 'assets/[name]-[contenthash:8].[ext]'
+              name: '[name]-[contenthash:8].[ext]'
             }
           }
         ]
